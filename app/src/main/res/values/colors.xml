@@ -30,5 +30,5 @@
     <color name="colorPrimary">@color/dknapps_de_purple</color>
     <color name="colorPrimaryDark">@color/dknapps_de_purple_dark</color>
     <color name="colorAccent">@color/dknapps_de_orange</color>
-    
+
 </resources>
