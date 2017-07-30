@@ -1,0 +1,40 @@
+<!--
+    mail2me - Create an email to yourself with one click
+
+        Copyright (C) 2017 Uwe Damken
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+ -->
+<resources>
+
+    <string name="app_name">Mail2me</string>
+    <string name="explanationLabel">Please go to your homescreen.\n\nAdd a widget.\n\nChoose that one of Mail2me.\n\nEnter an
+        abbreviation and an email address.\n\nClick add widget afterwards.\n\nNow you have a widget on your homescreen. It is
+        showing the abbreviation you entered.\n\nClick on it to opens your favorite email client.\n\nA new email is shown.\n\nIt is
+        already addressed to the email address you entered.</string>
+    <string name="abbreviationLabel">Abbreviation</string>
+    <string name="emailAddressLabel">Email address</string>
+    <string name="addWidgetButton">Add widget</string>
+
+    <string name="openAboutButton">About Mail2me</string>
+
+    <string name="AboutActivityTitle">About Mail2me</string>
+
+    <!-- Preference keys (don't localize) -->
+    <string name="abbreviationKey" translatable="false">abbreviation</string>
+    <string name="emailAddressKey" translatable="false">emailAddress</string>
+
+    <!-- About page url (don't localize) -->
+    <string name="aboutHtmlTextUrl" translatable="false">file:///android_asset/about.html</string>
+
+</resources>
