@@ -18,22 +18,24 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="#09C"
-                android:padding="@dimen/widget_margin"
                 android:id="@+id/all">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="fitStart"/>
 
     <TextView
         android:id="@+id/abbreviation"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_margin="8dp"
-        android:background="#09C"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
         android:contentDescription="@string/abbreviationLabel"
         android:text=""
-        android:textColor="#ffffff"
-        android:textSize="12sp"
-        android:textStyle="bold"/>
+        android:textColor="@color/dknapps_de_green"
+        android:textAlignment="center"
+        android:textSize="12sp"/>
 
 </RelativeLayout>
