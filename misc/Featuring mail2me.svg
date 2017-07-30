@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="500"
+   id="svg3007"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="Featuring mail2me.svg"
+   inkscape:export-filename="/home/uwe/Git/PswGen/PswGenDesktop/misc/Featuring PswGen.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs3009">
+    <filter
+       id="filter3164"
+       inkscape:label="Darken edges"
+       inkscape:menu="Shadows and Glows"
+       inkscape:menu-tooltip="Darken the edges with an inner blur"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         id="feGaussianBlur3166"
+         result="result6"
+         stdDeviation="1.5" />
+      <feComposite
+         id="feComposite3168"
+         in2="result6"
+         operator="atop"
+         in="SourceGraphic"
+         result="result8" />
+      <feComposite
+         id="feComposite3170"
+         in2="SourceAlpha"
+         in="result8"
+         operator="atop"
+         result="result9" />
+    </filter>
+    <linearGradient
+       y2="32"
+       x2="61.856499"
+       y1="32"
+       x1="1.5930001"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3010-183"
+       xlink:href="#a1-77"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="32"
+       x2="61.856499"
+       y1="32"
+       x1="1.5930001"
+       gradientUnits="userSpaceOnUse"
+       id="a1-77">
+      <stop
+         id="stop3095"
+         stop-color="#cfc88e"
+         offset="0" />
+      <stop
+         id="stop3097"
+         stop-color="#cfbf35"
+         offset="0.21" />
+      <stop
+         id="stop3099"
+         stop-color="#b7a600"
+         offset="0.84" />
+      <stop
+         id="stop3101"
+         stop-color="#9e8e00"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="43.957199"
+       x2="9.0263004"
+       y1="20.573299"
+       x1="42.5844"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3012-970"
+       xlink:href="#a2-601"
+       inkscape:collect="always" />
+    <linearGradient
+       y2="43.957199"
+       x2="9.0263004"
+       y1="20.573299"
+       x1="42.5844"
+       gradientUnits="userSpaceOnUse"
+       id="a2-601">
+      <stop
+         id="stop3104"
+         stop-color="#665100"
+         offset="0" />
+      <stop
+         id="stop3106"
+         stop-color="#9a7a00"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       y2="43.957199"
+       x2="9.0263004"
+       y1="20.573299"
+       x1="42.5844"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3037"
+       xlink:href="#a2-601"
+       inkscape:collect="always"
+       gradientTransform="translate(-4.6787617e-6,1.3058936e-6)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#a2-601"
+       id="linearGradient3285"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-4.6787617e-6,1.3058936e-6)"
+       x1="42.5844"
+       y1="20.573299"
+       x2="9.0263004"
+       y2="43.957199" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="1"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.6"
+     inkscape:cx="449.44375"
+     inkscape:cy="233.33334"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:window-width="1883"
+     inkscape:window-height="803"
+     inkscape:window-x="5"
+     inkscape:window-y="143"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata3012">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     transform="translate(0,-100)">
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3289"
+       style="fill:black;stroke:none;stroke-opacity:1;stroke-width:1px;stroke-linejoin:miter;stroke-linecap:butt;fill-opacity:1;font-family:Sans;font-style:normal;font-weight:normal;font-size:40px;line-height:125%;letter-spacing:0px;word-spacing:0px"><flowRegion
+         id="flowRegion3291"><rect
+           id="rect3293"
+           width="193.33333"
+           height="51.666668"
+           x="728.33331"
+           y="366.66666" /></flowRegion><flowPara
+         id="flowPara3295" /></flowRoot>    <g
+       id="g2988"
+       transform="translate(27.027448,145.97503)">
+      <g
+         transform="translate(0.69120442,77.550777)"
+         id="g3818">
+        <text
+           xml:space="preserve"
+           style="font-size:100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+           x="29.758703"
+           y="93.594719"
+           id="text3002"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3004"
+             x="29.758703"
+             y="93.594719"
+             style="font-size:100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#00ff00;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">dkn</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+           x="207.64413"
+           y="93.15921"
+           id="text3002-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             id="tspan3004-1"
+             x="207.64413"
+             y="93.15921"
+             style="font-size:100px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#48008a;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold">apps</tspan></text>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3002-1-0"
+         y="202.3098"
+         x="346.70541"
+         style="font-size:144px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+         xml:space="preserve"><tspan
+           style="font-size:50px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;fill:#ff6600;fill-opacity:1;font-family:Arial;-inkscape-font-specification:Arial Bold"
+           y="202.3098"
+           x="346.70541"
+           id="tspan3004-8-7"
+           sodipodi:role="line">.de</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:56px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#0a246a;fill-opacity:1;stroke:none"
+       x="742.78265"
+       y="370.81552"
+       id="text3097"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0648505,0.93909897)"><tspan
+         sodipodi:role="line"
+         x="742.78265"
+         y="370.81552"
+         style="font-weight:bold;font-size:48px;-inkscape-font-specification:'Sans Bold';text-align:center;text-anchor:middle"
+         id="tspan3187">mail2me</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#0a246a;fill-opacity:1;stroke:none"
+       x="520.77814"
+       y="442.38773"
+       id="text3069"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="520.77814"
+         y="442.38773"
+         style="font-size:30px;text-align:center;text-anchor:middle;fill:#0a246a"
+         id="tspan3031">Create an email to yourself with one click</tspan></text>
+  </g>
+</svg>
