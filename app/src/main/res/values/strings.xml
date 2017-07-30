@@ -20,8 +20,8 @@
     <string name="app_name">mail2me</string>
     <string name="explanationLabel">Please go to your homescreen.\n\nAdd a widget.\n\nChoose that one of mail2me.\n\nEnter an
         abbreviation and an email address.\n\nClick add widget afterwards.\n\nNow you have a widget on your homescreen. It is
-        showing the abbreviation you entered.\n\nClick on it to opens your favorite email client.\n\nA new email is shown.\n\nIt is
-        already addressed to the email address you entered.</string>
+        showing the abbreviation you entered.\n\nClick on it to open your favorite email client.\n\nA new email is shown.\n\nIt is
+        already addressed to the entered email address.</string>
     <string name="abbreviationLabel">Abbreviation</string>
     <string name="emailAddressLabel">Email address</string>
     <string name="addWidgetButton">Add widget</string>
