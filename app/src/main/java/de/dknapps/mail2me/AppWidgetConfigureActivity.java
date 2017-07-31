@@ -36,18 +36,18 @@ public class AppWidgetConfigureActivity extends Activity {
 
     int appWidgetId = AppWidgetManager.INVALID_APPWIDGET_ID;
 
-    EditText editTextAbbreviation;
+    EditText editTextWidgetAbbreviation;
 
-    EditText editTextEmailAddress;
+    EditText editTextWidgetEmailAddress;
 
     View.OnClickListener onClickListener = new View.OnClickListener() {
         public void onClick(View v) {
             final Context context = AppWidgetConfigureActivity.this;
 
             // When the button is clicked, store the strings locally
-            String abbreviation = editTextAbbreviation.getText().toString();
-            String emailAddress = editTextEmailAddress.getText().toString();
-            saveAppWidgetPreferences(context, appWidgetId, abbreviation, emailAddress);
+            String widgetAbbreviation = editTextWidgetAbbreviation.getText().toString();
+            String widgetEmailAddress = editTextWidgetEmailAddress.getText().toString();
+            saveAppWidgetPreferences(context, appWidgetId, widgetAbbreviation, widgetEmailAddress);
 
             // It is the responsibility of the configuration activity to update the app widget
             AppWidgetManager appWidgetManager = AppWidgetManager.getInstance(context);
@@ -68,10 +68,10 @@ public class AppWidgetConfigureActivity extends Activity {
     /**
      * Write new preference values into the shared preferences for the app widget with the given id.
      */
-    static void saveAppWidgetPreferences(Context context, int appWidgetId, String abbreviation, String emailAddress) {
+    static void saveAppWidgetPreferences(Context context, int appWidgetId, String widgetAbbreviation, String widgetEmailAddress) {
         SharedPreferences.Editor prefs = context.getSharedPreferences(PREFS_NAME, 0).edit();
-        prefs.putString(getKey(R.string.abbreviationKey, context, appWidgetId), abbreviation);
-        prefs.putString(getKey(R.string.emailAddressKey, context, appWidgetId), emailAddress);
+        prefs.putString(getKey(R.string.widgetAbreviationKey, context, appWidgetId), widgetAbbreviation);
+        prefs.putString(getKey(R.string.widgetEmailAddressKey, context, appWidgetId), widgetEmailAddress);
         prefs.apply();
     }
 
@@ -85,8 +85,8 @@ public class AppWidgetConfigureActivity extends Activity {
      */
     static void deleteAppWidgetPreferences(Context context, int appWidgetId) {
         SharedPreferences.Editor prefs = context.getSharedPreferences(PREFS_NAME, 0).edit();
-        prefs.remove(getKey(R.string.abbreviationKey, context, appWidgetId));
-        prefs.remove(getKey(R.string.emailAddressKey, context, appWidgetId));
+        prefs.remove(getKey(R.string.widgetAbreviationKey, context, appWidgetId));
+        prefs.remove(getKey(R.string.widgetEmailAddressKey, context, appWidgetId));
         prefs.apply();
     }
 
@@ -99,8 +99,8 @@ public class AppWidgetConfigureActivity extends Activity {
         setResult(RESULT_CANCELED);
 
         setContentView(R.layout.app_widget_configure);
-        editTextAbbreviation = (EditText) findViewById(R.id.abbreviation);
-        editTextEmailAddress = (EditText) findViewById(R.id.emailAddress);
+        editTextWidgetAbbreviation = (EditText) findViewById(R.id.widgetAbbreviation);
+        editTextWidgetEmailAddress = (EditText) findViewById(R.id.widgetEmailAddress);
         findViewById(R.id.addButton).setOnClickListener(onClickListener);
 
         // Find the widget id from the intent.
@@ -116,8 +116,8 @@ public class AppWidgetConfigureActivity extends Activity {
             return;
         }
 
-        editTextAbbreviation.setText(loadAppWidgetPreference(R.string.abbreviationKey, this, appWidgetId));
-        editTextEmailAddress.setText(loadAppWidgetPreference(R.string.emailAddressKey, this, appWidgetId));
+        editTextWidgetAbbreviation.setText(loadAppWidgetPreference(R.string.widgetAbreviationKey, this, appWidgetId));
+        editTextWidgetEmailAddress.setText(loadAppWidgetPreference(R.string.widgetEmailAddressKey, this, appWidgetId));
     }
 
     /**

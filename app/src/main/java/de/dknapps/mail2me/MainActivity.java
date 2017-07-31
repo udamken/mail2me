@@ -19,10 +19,10 @@ package de.dknapps.mail2me;
 
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Toast;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,12 +32,32 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-
     /**
-     * Öffnet den About-Dialog.
+     * Open the about dialog.
      */
     public void onClickButtonOpenAbout(final View buttonOpenAbout) {
         startActivity(new Intent(this, AboutActivity.class));
+    }
+
+    /**
+     * Add a link to the homescreen.
+     */
+    public void onClickButtonAddLink(final View buttonAddLink) {
+        View rootView = buttonAddLink.getRootView();
+        String linkAbbreviation = ((TextView) rootView.findViewById(R.id.linkAbbreviation)).getText().toString();
+        String linkEmailAddress = ((TextView) rootView.findViewById(R.id.linkEmailAddress)).getText().toString();
+        Intent shortcutIntent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", linkEmailAddress, null));
+
+        Intent addIntent = new Intent();
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, shortcutIntent);
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_NAME, linkAbbreviation);
+        addIntent.putExtra(Intent.EXTRA_SHORTCUT_ICON_RESOURCE,
+                Intent.ShortcutIconResource.fromContext(getApplicationContext(), R.mipmap.ic_launcher));
+
+        addIntent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
+        addIntent.putExtra("duplicate", false);  //may it's already there so don't duplicate
+        getApplicationContext().sendBroadcast(addIntent);
+        finish();
     }
 
 }

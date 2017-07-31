@@ -42,16 +42,18 @@ public class AppWidget extends AppWidgetProvider {
     static void updateAppWidget(Context context, AppWidgetManager appWidgetManager, int appWidgetId) {
 
         // Load app widget preference values
-        String abbreviation = AppWidgetConfigureActivity.loadAppWidgetPreference(R.string.abbreviationKey, context, appWidgetId);
-        String emailAddress = AppWidgetConfigureActivity.loadAppWidgetPreference(R.string.emailAddressKey, context, appWidgetId);
+        String widgetAbbreviation = AppWidgetConfigureActivity.loadAppWidgetPreference(R.string.widgetAbreviationKey, context,
+                appWidgetId);
+        String widgetEmailAddress = AppWidgetConfigureActivity.loadAppWidgetPreference(R.string.widgetEmailAddressKey, context,
+                appWidgetId);
 
         // Construct the RemoteViews object
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.app_widget);
-        views.setTextViewText(R.id.abbreviation, abbreviation);
-        views.setTextViewText(R.id.emailAddress, emailAddress);
+        views.setTextViewText(R.id.widgetAbbreviation, widgetAbbreviation);
+        views.setTextViewText(R.id.widgetEmailAddress, widgetEmailAddress);
 
         // Set click handler to open URI when clicking anywhere onto the widget
-        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", emailAddress, null));
+        Intent intent = new Intent(Intent.ACTION_SENDTO, Uri.fromParts("mailto", widgetEmailAddress, null));
         PendingIntent openAppIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
         views.setOnClickPendingIntent(R.id.all, openAppIntent);
 

@@ -18,12 +18,16 @@
 <resources>
 
     <string name="app_name">mail2me</string>
-    <string name="explanationLabel">Please go to your homescreen.\n\nAdd a widget.\n\nChoose that one of mail2me.\n\nEnter an
-        abbreviation and an email address.\n\nClick add widget afterwards.\n\nNow you have a widget on your homescreen. It is
-        showing the abbreviation you entered.\n\nClick on it to open your favorite email client.\n\nA new email is shown.\n\nIt is
-        already addressed to the entered email address.</string>
+    <string name="generalExplanationLabel">There are two options to create a shortcut to open an email to specified email address.
+        Add (1) a link or (2) a widget on your homescreen. The latter is helpful if you do not display labels for the icons on the
+        homescreen (as some launchers allow to suppress them).</string>
+    <string name="linkExplanationLabel">(1) To add a link please enter the abbreviation to be shown as label and the email
+        adress, then press the button to add a link.</string>
+    <string name="widgetExplanationLabel">(2) To add a widget go to your homescreen. You can add a mail2me widget the same way as
+        you usually add widgets - probably by touching longer on your homescreen.</string>
     <string name="abbreviationLabel">Abbreviation</string>
     <string name="emailAddressLabel">Email address</string>
+    <string name="addLinkButton">Add link</string>
     <string name="addWidgetButton">Add widget</string>
 
     <string name="openAboutButton">About mail2me</string>
@@ -31,8 +35,8 @@
     <string name="AboutActivityTitle">About mail2me</string>
 
     <!-- Preference keys (don't localize) -->
-    <string name="abbreviationKey" translatable="false">abbreviation</string>
-    <string name="emailAddressKey" translatable="false">emailAddress</string>
+    <string name="widgetAbreviationKey" translatable="false">widgetAbreviation</string>
+    <string name="widgetEmailAddressKey" translatable="false">widgetEmailAddress</string>
 
     <!-- About page url (don't localize) -->
     <string name="aboutHtmlTextUrl" translatable="false">file:///android_asset/about.html</string>
