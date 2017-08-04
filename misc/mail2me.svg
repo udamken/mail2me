@@ -13,8 +13,11 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="mail2me2.svg"
-   style="fill:#ffffff">
+   sodipodi:docname="mail2me.svg"
+   style="fill:#ffffff"
+   inkscape:export-filename="/home/uwe/Git/mail2me/misc/mail2me.png"
+   inkscape:export-xdpi="720"
+   inkscape:export-ydpi="720">
   <metadata
      id="metadata12">
     <rdf:RDF>
@@ -36,14 +39,14 @@
      objecttolerance="10"
      gridtolerance="10"
      guidetolerance="10"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:window-width="1771"
      inkscape:window-height="925"
      id="namedview8"
      showgrid="false"
      inkscape:zoom="9.8333333"
-     inkscape:cx="26.652139"
+     inkscape:cx="-7.457628"
      inkscape:cy="34.703173"
      inkscape:window-x="0"
      inkscape:window-y="30"
@@ -55,7 +58,7 @@
      inkscape:connector-curvature="0"
      style="fill:none" />
   <path
-     d="m 20.61017,2.4067796 -16.0000006,0 c -1.1,0 -1.99,0.9 -1.99,2 l -0.01,12.0000004 c 0,1.1 0.9,2 2,2 l 16.0000006,0 c 1.1,0 2,-0.9 2,-2 l 0,-12.0000004 c 0,-1.1 -0.9,-2 -2,-2 z m 0,14.0000004 -16.0000006,0 0,-10.0000004 8.0000006,5.0000004 8,-5.0000004 0,10.0000004 z m -8,-7.0000005 -8.0000006,-4.9999999 16.0000006,0 -8,4.9999999 z"
+     d="m 22.61017,4.4067796 -16.0000006,0 c -1.1,0 -1.99,0.9 -1.99,2 l -0.01,12.0000004 c 0,1.1 0.9,2 2,2 l 16.0000006,0 c 1.1,0 2,-0.9 2,-2 l 0,-12.0000004 c 0,-1.1 -0.9,-2 -2,-2 z m 0,14.0000004 -16.0000006,0 0,-10.0000004 8.0000006,5.0000004 8,-5.0000004 0,10.0000004 z m -8,-7.000001 -8.0000006,-4.9999994 16.0000006,0 -8,4.9999994 z"
      id="path6"
      inkscape:connector-curvature="0" />
   <path
@@ -64,7 +67,7 @@
      id="path4-3" />
   <path
      inkscape:connector-curvature="0"
-     d="m 15.118644,31.194916 0,4 7,-7 -7,-7 0,4.1 c -5,0 -8.5000003,-1.6 -11.0000003,-5.1 1,5 4.0000001,10 11.0000003,11 z"
+     d="m 16.225989,31.71017 0,3.484746 5.892655,-6.098305 -5.892655,-6.098305 0,3.571864 c -4.20904,0 -7.1553679,-1.393898 -9.2598877,-4.443051 0.8418079,4.355933 3.3672317,8.711865 9.2598877,9.583051 z"
      id="path4-7" />
   <g
      id="g4209"
